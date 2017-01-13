@@ -1,0 +1,81 @@
+body{
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+/* Form login */
+.wrapp-form {
+    margin-top: 89px;
+    padding: 119px;
+    box-shadow: 1px 1px 5px 0px #b2b2b2;
+}
+
+/* Menu*/
+.wrapp-conten {
+    margin-top: 10px;
+    border-bottom: 1px solid #D06E62;
+    padding-bottom: 5px;
+}
+.wrapp-conten p{
+    padding-left: 16px;
+    margin-top:10px;
+    margin-bottom: 8px;
+    color: #292b2c;
+}
+
+h4.menu-h4 {
+       margin-top: 18px;
+       border-left: 3px solid #d06e62;
+       font-weight: bold;
+       padding: 12px;
+       margin-left: 12px;
+}
+h4.menu {
+    margin-top: 29px;
+    font-size: 19px;
+}
+a h4.menu {
+    text-decoration: underline;
+    color: #0000EE;
+    font-weight: bold;
+}
+
+p.icon:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 16px;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.row.content {
+    margin-left: 23px;
+}
+
+/* menu left*/
+ul.menu-right {
+    text-decoration: underline;
+    list-style-type: none;
+    margin-left: 29px;
+    line-height: 3;
+    font-weight: 500;
+}
+ul.menu-right a {
+    color: #0000EE;
+}
+
+/*Button style*/
+.btnstyle {
+    float: right;
+    background: #D0D0D0;
+    border: none;
+    width: 150px;
+    border-radius: 0px;
+}
+.btnstyle.btn.btn-primary:hover {
+    background: #a4a4a4;
+    cursor:pointer;
+}

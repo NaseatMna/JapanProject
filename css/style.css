@@ -10,9 +10,11 @@ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メ�
 }
 
 /* Menu*/
+.container-fluid.main {
+    border-bottom: 1px solid #d06e62;
+}
 .wrapp-conten {
     margin-top: 10px;
-    border-bottom: 1px solid #D06E62;
     padding-bottom: 5px;
 }
 .wrapp-conten p{
@@ -78,4 +80,19 @@ ul.menu-right a {
 .btnstyle.btn.btn-primary:hover {
     background: #a4a4a4;
     cursor:pointer;
+}
+/*Page 03*/
+.header-table {
+    background: #ffc800;
+}
+.align-sm-2 .col-sm-2 {
+    margin-left: 50px;
+}
+.col-sm-12.table-content {
+    padding-left: 66px;
+    /* margin: 0; */
+}
+/* Page 04 */
+hr.hr {
+    border-top: 1px solid #d06e62;
 }

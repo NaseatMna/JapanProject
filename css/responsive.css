@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+
+.deliver h4 {
+    font-weight: bold;
+    font-size: 26px;
+}
+/* page 02*/
+.col-sm-2.menu {
+    padding: 0;
+}
+a h4.menu {
+    text-decoration: underline;
+    color: rgb(0, 0, 238);
+    font-weight: bold;
+    font-size:15px;
+}
+}
+@media screen and (max-width: 768px) {
+
+h4.menu-h4 {
+    margin-top: 18px;
+    border-left: 3px solid #d06e62;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.deliver h4 {
+    font-weight: bold;
+    font-size: 17px;
+}
+/* page 02*/
+.col-sm-2.menu {
+    padding: 0;
+}
+a h4.menu {
+    text-decoration: underline;
+    color: rgb(0, 0, 238);
+    font-weight: bold;
+    font-size:16px;
+}
+}

@@ -5,6 +5,7 @@
     <title>配送指示</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
 </head>
 <body>
 <div class="container-fluid main">
@@ -25,22 +26,22 @@
             </div>
             <div class="col-sm-12">
                 <div class="align-sm-2">
-                    <div class="col-sm-2">
-                         <h4>配送日 配</h4>
+                    <div class="col-sm-4 date-picker">
+                         <h4>配送日</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="form-group">
                         <div class='input-group date' id='datetimepicker1'>
-                            <input type='text' class="form-control" value="01/14/2017" />
-                            <span class="input-group-addon">
+                            <input type='text' class="form-control date-picker" value="01/14/2017" />
+                            <span class="input-group-addon date-picker">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
                         </div>
                     </div>  
                 </div>
-                <div class="col-sm-1">
-                    <button type="submit" class="btn btn-default">Submit</button>
+                <div class="col-sm-4">
+                    <button type="submit" class="btn btn-default date-picker">表示</button>
                 </div>
             </div>
             <div class="col-sm-12 table-content">
@@ -48,8 +49,8 @@
                     <thead>
                     <tr class="header-table">
                         <th></th>
-                        <th></th>
                         <th>ス</th>
+                        <th></th>
                         <th></th>
                     </tr>
                     </thead>

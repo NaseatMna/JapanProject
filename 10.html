@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配送指示</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+<div class="container-fluid main">
+    <div class="wrapp-conten">
+        <div class="row">
+            <div class="col-sm-4"><a href="#"><p>養老軒 在庫・配送管理システム</p></a></div><!--end col-sm-6-->
+            <div class="col-sm-4 center"><p>本日の日付：2016年10月1日</p></div><!--end col-sm-4-->
+            <div class="col-sm-2"><a href="#"><p class="icon">メニュー</p></a></div><!--end col-sm-2-->
+            <div class="offset-sm-2"></div>
+        </div><!--end row-->
+    </div><!--end wrapp-content-->
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-12"><h4 class="menu-h4">日報管理</h4></div>
+                <div class="col-sm-8 col-sm-offset-4 blog-button">
+                    <button type="submit" class="btn btn-default default">戻る</button>
+                    <button type="submit" class="btn btn-default default">表示</button>
+                </div>
+            </div>
+            <br/>
+            <div class="row wrapper-row">
+                <div class="col-sm-12 padding-botton">
+                    <label class="col-sm-2 control-label">対象日</label>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control date-picker" value="01/14/2017" />
+                                <span class="input-group-addon date-picker">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="col-sm-2 control-label">店舗 /会</label>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <select id="selectbasic" name="selectbasic" class="form-control">
+                                <option value="1">丸栄</option>
+                                <option value="2"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 padding-botton">
+                    <label class="col-sm-2 control-label">総売上：</label>
+                    <label class="col-sm-2 control-label">¥999,999</label>
+                    <label class="col-sm-2 control-label">実金額：</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" value="¥999,999">
+                    </div>
+                    <label class="col-sm-2 control-label">誤差：</label>
+                    <label class="col-sm-1 control-label">¥9</label>
+                </div>
+                <div class="col-sm-12 padding-botton">
+                    <label class="col-sm-2 control-label">実金額：</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" value="¥999,999">
+                    </div>
+                    <label class="col-sm-3 control-label">ポイントカード：</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" value="¥999,999">
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row wrapper-row">
+                <div class="col-sm-12">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="th-color-orange">商品名</th>
+                            <th class="th-color-orange">売上</th>
+                            <th class="th-color-orange">当り数</th>
+                            <th class="th-color-orange">スタンプカ</th>
+                            <th class="th-color-orange">社員</th>
+                            <th class="th-color-orange">廃棄数</th>
+                            <th class="th-color-orange">最終</th>
+                            <th class="th-color-orange">売上</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="td-color-picker">ふるー つ</td>
+                            <td class="td-color-picker">５枚個</td>
+                            <td class="td-color-picker">３個</td>
+                            <td class="td-color-picker">０個</td>
+                            <td class="td-color-picker">０個</td>
+                            <td class="td-color-picker">０個</td>
+                            <td class="td-color-picker">2</td>
+                            <td class="td-color-picker">¥99,999</td>
+                        </tr>
+                        <tr>
+                            <td class="td-color-pick">生いちご</td>
+                            <td class="td-color-pick">２枚 10 個</td>
+                            <td class="td-color-pick">２個</td>
+                            <td class="td-color-pick">２０</td>
+                            <td class="td-color-pick"></td>
+                            <td class="td-color-pick">４個</td>
+                            <td class="td-color-pick">１枚</td>
+                            <td class="td-color-pick">¥99,999</td>
+                        </tr>
+                        <tr>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker"></td>
+                            <td class="td-color-picker">¥99,999</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="col-sm-12"><h4 class="menu-h4">操作</h4></div>
+            <ul class="menu-right">
+                <li><a href="">配送指示</a> </li>
+                <li><a href="">生産指示</a> </li>
+                <li><a href="">メッセージを送る</a> </li>
+                <li><a href="">日報管理</a> </li>
+                <li><a href="">在庫状況確認</a> </li>
+            </ul>
+            <div class="col-sm-12"><h4 class="menu-h4">設定関連</h4></div>
+            <ul class="menu-right">
+                <li><a href="">店舗管理</a> </li>
+                <li><a href="">イベント管理</a> </li>
+                <li><a href="">商品管理</a> </li>
+                <li><a href="">ユーザー管理</a> </li>
+                <li><a href="">倉庫管理</a> </li>
+                <li><a href="">工場管理</a> </li>
+                <li><a href="">操作履歴</a> </li>
+            </ul>
+        </div>
+    </div><!--end row-->
+</div><!--end container-->
+</body>
+</html>
+<script  src="js/jquery-3.1.1.min.js"/>
+<script  src="js/bootstrap.min.js"/>
+<script  src="js/datetime.js"/>
+
+

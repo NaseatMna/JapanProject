@@ -1,5 +1,4 @@
 @media screen and (max-width: 1024px) {
-
 .deliver h4 {
     font-weight: bold;
     font-size: 26px;
@@ -14,6 +13,15 @@ a h4.menu {
     font-weight: bold;
     font-size:15px;
 }
+.control-label {
+    font-size: 20px;
+    padding: 0;
+}
+.date-picker h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0px;
+}
 }
 @media screen and (max-width: 768px) {
 
@@ -24,6 +32,11 @@ h4.menu-h4 {
     padding: 5px;
     margin-left: 10px;
     font-size: 25px;
+}
+.date-picker h4 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 0px;
 }
 .deliver h4 {
     font-weight: bold;
@@ -38,5 +51,9 @@ a h4.menu {
     color: rgb(0, 0, 238);
     font-weight: bold;
     font-size:16px;
+}
+.control-label {
+    font-size:17px;
+    padding: 0;
 }
 }

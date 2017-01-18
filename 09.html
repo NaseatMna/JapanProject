@@ -24,19 +24,26 @@
             <div class="row">
                 <div class="col-sm-12"><h4 class="menu-h4">メッセージ送信</h4></div>
             </div>
+            <div class="row">
+                <div class="col-sm-7 col-sm-offset-5 blog-button">
+                    <button type="submit" class="btn btn-default default">戻る</button>
+                </div>
+            </div>
             <div class="row padding-top">
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="well well-sm">
                         <form class="form-horizontal" action="" method="post">
                             <fieldset>
-                                <legend class="text-center format-font-form-title">お知らせ（追加）</legend>
+                                <legend class="text-center format-font-form-title">お知らせ（詳細）</legend>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="selectbasic">送信先</label>
-                                    <div class="col-sm-9">
-                                        <select id="selectbasic" name="selectbasic" class="form-control">
-                                            <option value="1"></option>
-                                            <option value="2"></option>
-                                        </select>
+                                    <label class="col-sm-3 control-label">送信先</label>
+                                    <div class="col-sm-3">
+                                        <input type="text"  class="form-control" value="丸栄">
+                                    </div>
+
+                                    <label class="col-sm-2 control-label">送信時間</label>
+                                    <div class="col-sm-4">
+                                        <input type="text"  class="form-control" value="8/18 16:30">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -49,12 +56,6 @@
                                     <label class="col-sm-3 control-label" for="message">内容</label>
                                     <div class="col-sm-9">
                                         <textarea class="form-control" id="message" name="message"  rows="5"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-12 text-right">
-                                        <button type="submit" class="btn btn-default default">戻る</button>
-                                        <button type="submit" class="btn btn-default default">送信</button>
                                     </div>
                                 </div>
                             </fieldset>

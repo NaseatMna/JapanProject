@@ -188,6 +188,9 @@ hr.hr {
 .row.wrapper-row {
     margin-left: 2px;
 }
+.table.table-bordered>tbody>tr>td{
+    padding:8px;
+}
 /* 07 */
 .btn-default.in-button {
     background: #cecece;
@@ -200,9 +203,47 @@ hr.hr {
     border:1px solid white;
 }
 /* 08 */
-.wrapper-box {
+.container.wrap {
+    max-width: 500px;
+    border: 1px solid;
+}
+
+.wrapper-box{
+    background:#ddd;
+    padding:20px;
+}
+.col-sm-3.control-label {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.form-control {
+    font-size: 18px;
+    color: #000000;
+    border-radius: 0px;
+}
+.well.well-sm {
+    background: white;
     border: 1px solid gray;
-    height: 300px;
-    margin-left: 88px;
-    margin-top: 16px;
+    /* width: 100%; */
+}
+.row.padding-top{
+    padding-top:30px;
+}
+.text-left{
+    text-align:left;
+}
+.format-font-form-title{
+    font-size:23px;
+}
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+.control-label {
+    font-size: 20px;
+    padding: 0;
+}
+.padding-botton {
+    padding-bottom: 10px;
 }

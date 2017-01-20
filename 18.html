@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>11</title>
+    <title>18</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
@@ -21,30 +21,61 @@
     <div class="row">
         <div class="col-sm-9">
             <div class="row">
-                <div class="col-sm-12"><h4 class="menu-h4">在庫一覧</h4></div>
-                <div class="col-sm-8 col-sm-offset-4 blog-button">
-                    <button type="submit" class="btn btn-default default">戻る</button>
-                </div>
+                <div class="col-sm-12"><h4 class="menu-h4">取扱商品</h4></div>
             </div>
             <br/>
+            <div class="row wrapper-row">
+                <label class="col-sm-2 control-label text-align-center">店舗/会</label>
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <select id="selectbasic" name="selectbasic" class="form-control height">
+                            <option value="1">丸栄</option>
+                            <option value="2"></option>
+                        </select>
+                    </div>
+                </div>
+                 <div class="col-sm-7 blog-button">
+                    <button type="submit" class="btn btn-default default">戻る</button>
+                    <button type="submit" class="btn btn-default default">下書</button>
+                    <button type="submit" class="btn btn-default default">確定</button>
+                </div>
+            </div>
             <div class="row wrapper-row">
                 <div class="col-sm-12">
                     <table class="table table-bordered table-font">
                         <thead>
-                        <tr>
-                            <th>商品名</th>
-                            <th>在庫数</th>
-                        </tr>
+                            <tr>
+                                <th>商品名</th>
+                                <th>タイプ</th>
+                                <th>単価</th>
+                                <th>取扱</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>商品 A</td>
-                            <td class="text-align-right">100</td>
-                        </tr>
-                        <tr>
-                            <td>商品 B</td>
-                            <td class="text-align-right">100</td>
-                        </tr>
+                            <tr>
+                                <td>商品 A</td>
+                                <td>冷凍</td>
+                                <td>100</td>
+                                <td>
+                                    <div class="checkbox my-checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>商品 A</td>
+                                <td>冷凍</td>
+                                <td>100</td>
+                                <td>
+                                    <div class="checkbox my-checkbox">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

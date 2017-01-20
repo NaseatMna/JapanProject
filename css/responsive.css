@@ -22,9 +22,20 @@ a h4.menu {
     font-weight: bold;
     margin-left: 0px;
 }
+.table.table-bordered.table-font {
+    font-size: 16px;
+}
+
 }
 @media screen and (max-width: 768px) {
-
+.wrapp-conten p {
+    letter-spacing: 0px;
+    padding-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #292b2c;
+    font-size: 17px;
+}
 h4.menu-h4 {
     margin-top: 18px;
     border-left: 3px solid #d06e62;
@@ -37,6 +48,9 @@ h4.menu-h4 {
     font-size: 21px;
     font-weight: bold;
     margin-left: 0px;
+}
+.table.table-bordered.table-font {
+    font-size: 14px;
 }
 .deliver h4 {
     font-weight: bold;
@@ -54,6 +68,9 @@ a h4.menu {
 }
 .control-label {
     font-size:17px;
+    padding: 0;
+}
+.col-sm-7.blog-button {
     padding: 0;
 }
 }

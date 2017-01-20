@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>9</title>
+    <title>20</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
@@ -21,45 +21,41 @@
     <div class="row">
         <div class="col-sm-9">
             <div class="row">
-                <div class="col-sm-12"><h4 class="menu-h4">メッセージ送信</h4></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-7 col-sm-offset-5 blog-button">
+                <div class="col-sm-12"><h4 class="menu-h4">ユーザ管理（新規追加）</h4></div>
+                <div class="col-sm-8 col-sm-offset-4 blog-button">
                     <button type="submit" class="btn btn-default default">戻る</button>
+                    <button type="submit" class="btn btn-default default">追加</button>
                 </div>
             </div>
-            <div class="row padding-top">
+            <br/>
+            <div class="row wrapper-row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" action="" method="post">
-                            <fieldset>
-                                <legend class="text-center format-font-form-title">お知らせ（詳細）</legend>
-                                <div class="form-group">
-                                    <label class="col-sm-3 control-label">送信先</label>
-                                    <div class="col-sm-3">
-                                        <input type="text"  class="form-control" value="丸栄">
-                                    </div>
-
-                                    <label class="col-sm-2 control-label">送信時間</label>
-                                    <div class="col-sm-4">
-                                        <input type="text"  class="form-control" value="8/18 16:30">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="name">タイトル</label>
-                                    <div class="col-sm-9">
-                                        <input id="name" name="name" type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-3 control-label" for="message">内容</label>
-                                    <div class="col-sm-9">
-                                        <textarea class="form-control" id="message" name="message"  rows="5"></textarea>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
+                    <table class="table table-bordered table-font">
+                        <thead>
+                        <tr>
+                            <th>ユーザ名</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>メールアドレス</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>パスワード</td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>閲覧権限</td>
+                            <td>本部 <span class="my-glyphicon glyphicon glyphicon-triangle-bottom"></span></td>
+                        </tr>
+                         <tr>
+                            <td>操作権限</td>
+                            <td>本部 <span class="my-glyphicon glyphicon glyphicon-triangle-bottom"></span></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
